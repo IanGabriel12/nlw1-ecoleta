@@ -1,0 +1,22 @@
+.success{
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: #303030;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   transition: opacity 0.5s;
+}
+
+.success h1{
+   color: #34CB79;
+}
+
+.success #check{
+   font-size: 48px;
+   color: #34CB79;
+}
